@@ -653,7 +653,7 @@ class Chrome(selenium.webdriver.chrome.webdriver.WebDriver):
                     pass
                 except (RuntimeError, OSError, PermissionError) as e:
                     logger.debug(
-                        "When removing the temp profile, a %s occured: "
+                        "When removing the temp profile, a %s occurred: "
                         "%s\nRetrying..."
                         % (e.__class__.__name__, e)
                     )
